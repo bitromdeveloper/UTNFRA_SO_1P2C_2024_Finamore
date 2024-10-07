@@ -45,3 +45,5 @@ echo "/dev/sdd8 $HOME/repogit/alumno_3/parcial_1/ ext4 defaults 0 0" | sudo tee 
 echo "/dev/sdd9 $HOME/repogit/alumno_3/parcial_2/ ext4 defaults 0 0" | sudo tee -a /etc/fstab
 echo "/dev/sdd10 $HOME/repogit/alumno_3/parcial_3/ ext4 defaults 0 0" | sudo tee -a /etc/fstab
 echo "/dev/sdd11 $HOME/repogit/profesores ext4 defaults 0 0" | sudo tee -a /etc/fstab
+
+sudo mount -a
