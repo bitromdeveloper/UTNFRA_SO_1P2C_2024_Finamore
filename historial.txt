@@ -1,0 +1,575 @@
+ls
+mkdir repogit
+ls
+cd repogit
+git clone https://github.com/upszot/UTN-FRA_SO_Examenes.git
+git clone https://github.com/bitromdeveloper/UTNFRA_SO_1P2C_2024_Finamore
+tree
+apt install tree
+sudo apt install tree
+apt update
+sudo apt update
+sudo apt install tree
+tree
+ls -l
+ls
+cd UTN-FRA_SO_Examenes/
+ls
+rm -rf 20230521
+rm -rf 202311
+rm -rf 20231204
+rm -rf 202405
+rm -rf 202406_Recu
+rm -rf 202407_Recu
+rm -rf 202311_Recu
+ls
+rm -rf 202310
+rm -rf 20231211
+rm -rf 202406
+rm -rf 202408
+ls
+tree
+ls
+cd ..
+./UTN-FRA_SO_Examenes/202410/script_Precondicion.sh
+source ~/.bashrc && history -a
+tree
+ls
+cd UTNFRA_SO_1P2C_2024_Finamore/
+ls
+ls -l
+tree
+rm -rf RTA_SCRIPT_Examen_20241004
+tree
+cd RTA_SCRIPT_Examen_20241005/
+ls
+ls -l
+vim Punto_A.sh
+cat Punto_A.sh 
+git status
+git add Punto_A.sh
+git status
+git commit -m "Agregar comando del punto A de creacion de directorios (Punto_A.sh)"
+git config --global user.email "finamorelucas@hotmail.com"
+git config --global user.name "bitromdeveloper"
+git commit -m "Agregar comando del punto A de creacion de directorios (Punto_A.sh)"
+git push origin main
+git status
+git add/rm
+git add/rm Punto_A.sh
+cd ..
+ls
+git add -A
+git status
+fdisk /dev/sdf
+sudo fdisk /dev/sdf
+exit
+ls
+cd repogit
+ls
+cd UTNFRA_SO_1P2C_2024_Finamore/
+ls
+tree
+cd RTA_SCRIPT_Examen_20241005/
+vim Punto_A.sh
+git status
+git commit -m "Se le agrega el bin bash (Punta_A.hs)"
+git status
+git push origin main
+git pull origin main
+git config pull.rebase false
+git config pull.ff only
+git push origin main
+cd ..
+ls
+git push origin main
+ls
+cd RTA_SCRIPT_Examen_20241005/
+ls
+rm Punto_A.sh
+git commit -m "Se borra archivo (Punto_A.sh)"
+git add Punto_A.sh
+git commit -m "Eliminar archivo (Punto_A.sh)"
+git push origin main
+exit
+cd .
+cd $HOME
+mkdir repogit
+ls
+tree
+./UTN-FRA_SO_Examenes/202410/script_Precondicion.sh
+~/.bashrc && history -a
+source ~/.bashrc && history -a
+ls
+tree
+ls
+cd repogit
+git clone https://github.com/bitromdeveloper/UTNFRA_SO_1P2C_2024_Finamore
+ls
+rm -rf UTN-FRA_SO_Examenes/
+rm -rf UTNFRA_SO_1P2C_2024_Finamore/
+ls
+cd ..
+ls
+cd home
+ls repogit
+ls
+ls vagrant
+cd vagrant
+cd repogit
+ls
+tree
+git clone https://github.com/upszot/UTN-FRA_SO_Examenes.git
+git clone https://github.com/bitromdeveloper/UTNFRA_SO_1P2C_2024_Finamore
+./UTN-FRA_SO_Examenes/202410/script_Precondicion.sh
+source ~/.bashrc && history -a
+tree
+ls
+cd UTN-FRA_SO_Examenes/
+ls
+rm -rf 20230521/
+rm -rf 202311
+rm -rf 20231204
+rm -rf 202405
+rm -rf 202406
+rm -rf 202406_Recu
+rm -rf 202407_Recu
+rm -rf 202408
+rm -rf 202311_Recu
+ls
+rm -rf 202310
+rm -rf 20231211
+ls
+cd ..
+ls
+tree
+ls
+cd UTNFRA_SO_1P2C_2024_Finamore/
+ls
+cd RTA_SCRIPT_Examen_20241005/
+ls
+vim Punto_A.sh
+git status
+git add Punto_A.sh
+git status
+git commit -m "Armado de script para creacion de directorios (Punto_A.sh)"
+git status
+git push origin main
+git status
+exit
+fdisk -l
+sudo fdisk -l
+sudo fdisk /dev/sdd
+sudo fdisk -l
+sudo mkfs -t ext4 /dev/sdd1
+sudo mkfs -t ext4 /dev/sdd2
+sudo mkfs -t ext4 /dev/sdd3
+sudo mount /dev/sdd1 /repogit/alumno_1/parcial_1
+ls
+cd repogit
+ls
+tree
+mkdir -p {alumno_{1..3}/parcial_{1..3},profesores}
+tree
+cd ..
+sudo mount /dev/sdd1 /repogit/alumno_1/parcial_1
+sudo mount /dev/sdd1 alumno_1/parcial_1
+ls
+sudo mount /dev/sdd1 /alumno_1/parcial_1
+sudo mount /dev/sdd1 /repogit/alumno_1/parcial_1
+pwd
+sudo mount /dev/sdd1 /alumno_1/parcial_1
+cd repogit
+sudo mount /dev/sdd1 /alumno_1/parcial_1
+ls
+mount /dev/sdd1 /alumno_1/parcial_1
+mount /dev/sdd1 /alumno_1/parcial_1/
+mount /dev/sdd1 $HOME/repogit/alumno_1/parcial_1/
+sudo mount /dev/sdd1 $HOME/repogit/alumno_1/parcial_1/
+sudo mount /dev/sdd2 $HOME/repogit/alumno_1/parcial_2/
+sudo mount /dev/sdd3 $HOME/repogit/alumno_1/parcial_3/
+lsblk -f
+df -h
+sudo fdisk /dev/sdd
+df -h
+lsblk -f
+sudo fdisk /dev/sdd
+lsblk -f
+sudo fdisk /dev/sdd
+fdisk -l $DISK
+sudo fdisk -l $DISK
+sudo mkfs -t ext4 /dev/sdd5
+sudo mkfs -t ext4 /dev/sdd6
+sudo mkfs -t ext4 /dev/sdd7
+sudo mkfs -t ext4 /dev/sdd8
+sudo mkfs -t ext4 /dev/sdd9
+sudo mkfs -t ext4 /dev/sdd10
+sudo mkfs -t ext4 /dev/sdd11
+sudo fdisk /dev/sdd
+sudo mount /dev/sdd5 $HOME/repogit/alumno_2/parcial_1/
+sudo mount /dev/sdd6 $HOME/repogit/alumno_2/parcial_2/
+sudo mount /dev/sdd7 $HOME/repogit/alumno_2/parcial_3/
+sudo mount /dev/sdd8 $HOME/repogit/alumno_3/parcial_1/
+sudo mount /dev/sdd9 $HOME/repogit/alumno_3/parcial_2/
+sudo mount /dev/sdd10 $HOME/repogit/alumno_3/parcial_3/
+sudo mount /dev/sdd11 $HOME/repogit/profesores
+sudo fdisk -l $DISK
+lsblk -f
+cat /etc/fastab
+cat /etc/fstab
+echo "/deb/sdd1 /$HOME/repogit/alumno_1/parcial_1 ext4 defaults 0 0"
+echo "/deb/sdd1 $HOME/repogit/alumno_1/parcial_1 ext4 defaults 0 0"
+echo "/deb/sdd1 $HOME/repogit/alumno_1/parcial_1 ext4 defaults 0 0" | sudo tee -a /etc/fstab
+cat /etc/fstab
+echo "/dev/sdd1 $HOME/repogit/alumno_1/parcial_1 ext4 defaults 0 0" | sudo tee -a /etc/fstab
+echo "/dev/sdd2 $HOME/repogit/alumno_1/parcial_2 ext4 defaults 0 0" | sudo tee -a /etc/fstab
+echo "/dev/sdd3 $HOME/repogit/alumno_1/parcial_3 ext4 defaults 0 0" | sudo tee -a /etc/fstab
+echo "/dev/sdd5 $HOME/repogit/alumno_2/parcial_1/ ext4 defaults 0 0" | sudo tee -a /etc/fstab
+echo "/dev/sdd6 $HOME/repogit/alumno_2/parcial_2/ ext4 defaults 0 0" | sudo tee -a /etc/fstab
+echo "/dev/sdd7 $HOME/repogit/alumno_2/parcial_3/ ext4 defaults 0 0" | sudo tee -a /etc/fstab
+echo "/dev/sdd8 $HOME/repogit/alumno_3/parcial_1/ ext4 defaults 0 0" | sudo tee -a /etc/fstab
+echo "/dev/sdd9 $HOME/repogit/alumno_3/parcial_2/ ext4 defaults 0 0" | sudo tee -a /etc/fsta
+echo "/dev/sdd10 $HOME/repogit/alumno_3/parcial_3/ ext4 defaults 0 0" | sudo tee -a /etc/fstab
+echo "/dev/sdd11 $HOME/repogit/profesores ext4 defaults 0 0" | sudo tee -a /etc/fstab
+cat /etc/fstab
+sudo vim /etc/fstab
+cat /etc/fstab
+sudo vim /etc/fstab
+cat /etc/fstab
+sudo mount -a
+cat /etc/fstab
+exit
+cat /etc/fstab
+exit
+tre
+tree
+ls -ld /repogit/alumno_1/parcial_1
+ls -ld ./repogit/alumno_1/parcial_1
+sudo nano /etc/fstab
+cd repogit
+cd UTNFRA_SO_1P2C_2024_Finamore/
+cd RTA_SCRIPT_Examen_20241005/
+vim Punto_B.sh
+sudo mount -a
+git add Punto_B.sh
+git commit -m "Subiendo script de crear particiones y montaje persistente (Punto_B.sh)"
+git push origin main
+git status
+exit
+tree
+cd repogit
+cd UTNFRA_SO_1P2C_2024_Finamore/
+cd RTA_SCRIPT_Examen_20241005/
+ls
+vim Punto_B.sh
+git status
+git add Punto_B.sh
+git commit -m "Modifico el arhivo agregando mount -a (Punto_B.sh)"
+git status
+git push origin main
+git status
+sudo vim /etc/sudores
+ls
+cd repogit
+ls
+tree
+ls -l
+cd UTNFRA_SO_1P2C_2024_Finamore/
+cd RTA_SCRIPT_Examen_20241005/
+ls
+vim Punto_C.sh
+./Punto_C.sh
+sudo ./Punto_C.sh
+vim Punto_C.sh
+./Punto_C.sh
+vim Punto_C.sh
+./Punto_C.sh
+vim Punto_C.sh
+sudo ./Punto_C.sh
+ls
+cd repogit
+cd UTNFRA_SO_1P2C_2024_Finamore/
+cd RTA_SCRIPT_Examen_20241005/
+ls
+sudo ./Punto_C.sh
+ch +x Punto_C.sh
+chmod +x Punto_C.sh
+sudo ./Punto_C.sh
+vim Punto_C.sh
+sudo ./Punto_C.sh
+tree
+vim Punto_C.sh
+cd repogit
+cd UTNFRA_SO_1P2C_2024_Finamore/
+cd RTA_SCRIPT_Examen_20241005/
+vim Punto_C.sh
+sudo ./Punto_C.sh
+vim Punto_C.sh
+cd ..
+sudo usermod -aG 1c2_2024_gAlumno p1c2_2024_A1
+sudo usermod -aG 1c2_2024_gAlumno p1c2_2024_A2
+sudo usermod -aG 1c2_2024_gAlumno p1c2_2024_A3
+sudo usermod -aG 1c2_2024_gProfesores p1c2_2024_A1
+sudo chown -R p1c2_2024_A1:1c2_2024_gAlumno $HOME/repogit/alumno_1
+sudo chown -R p1c2_2024_A2:1c2_2024_gAlumno $HOME/repogit/alumno_2
+sudo chown -R p1c2_2024_A3:1c2_2024_gAlumno $HOME/repogit/alumno_3
+sudo chown -R p1c2_2024_P1:1c2_2024_gProfesores $HOME/repogit/profesores
+sudo chmod 770 $HOME/repogit/alumno_1
+sudo chmod 770 $HOME/repogit/alumno_2
+sudo chmod 770 $HOME/repogit/alumno_3
+sudo chmod 770 $HOME/repogit/profesores
+sudo -u p1c2_2024_A1 bash -c "whoami > $HOME/repogit/alumno_1/validar.txt"
+sudo su -u p1c2_2024_A1 bash -c "whoami > $HOME/repogit/alumno_1/validar.txt"
+sudo -u p1c2_2024_A1 bash -c "whoami > $HOME/repogit/alumno_1/validar.txt"
+sudo chmod 777 $HOME/repogit/profesores
+sudo chmod 777 $HOME/repogit/alumno_3
+sudo chmod 777 $HOME/repogit/alumno_2
+sudo chmod 777 $HOME/repogit/alumno_1
+sudo -u p1c2_2024_A1 bash -c "whoami > $HOME/repogit/alumno_1/validar.txt"
+ls -ld $HOME/repogit/alumno_1
+cd repogit
+cd UTNFRA_SO_1P2C_2024_Finamore/
+cd RTA_SCRIPT_Examen_20241005/
+vim Punto_C.sh
+sudo ./Punto_C.sh
+sudo -u p1c2_2024_A1 bash -c "whoami > $HOME/vagrant/repogit/alumno_1/validar.txt"
+vim Punto_C.sh
+cd $HOME/repogit/alumno_1
+sudo -u p1c2_2024_A1 bash -c "whoami > validar.txt"
+tree
+cd $HOME/repogit/alumno_2
+sudo -u p1c2_2024_A2 bash -c "whoami > validar.txt"
+cd $HOME/repogit/alumno_3
+sudo -u p1c2_2024_A3 bash -c "whoami > validar.txt"
+cd $HOME/repogit/profesores
+sudo -u p1c2_2024_P1 bash -c "whoami > validar.txt"
+cd ..
+cd UTNFRA_SO_1P2C_2024_Finamore/
+cd RTA_SCRIPT_Examen_20241005/
+vim Punto_C.sh
+[200~
+sudo chmod 750 $HOME/repogit/alumno_1
+sudo chmod 760 $HOME/repogit/alumno_2
+sudo chmod 700 $HOME/repogit/alumno_3
+sudo chmod 775 $HOME/repogit/profesores
+cd ..
+git add Punto_C.sh
+cd repogit
+cd UTNFRA_SO_1P2C_2024_Finamore/
+cd RTA_SCRIPT_Examen_20241005/
+git add Punto_C.sh
+git status
+git commit -m "Agregando archivo para creacion de usuarios y grupos con otorgacion de permisos (Punto_C.sh)"
+git push origin main
+vim Punto_B.sh
+vim Punto_A.sh
+git add Punto_B.sh
+git add Punto_A.sh
+git commit -m "correcion del bin bash (Punto_A.sh y Punto_B.sh)"
+git commit -m "correccion del bin bash (Punto_A.sh y Punto_B.sh)"
+git push origin main
+cd ..
+mkdir -p {Estructura_Asimetrica/{correo/{cartas_{1..100},carteros_{1..10}},clientes/cartas_{1..100}}}
+tree Estructura_Asimetrica/ --noreport | pr -T -s' ' -w 80 --column 4
+tree
+ls
+rm -rf "{Estructura_Asimetrica"
+ls
+cd repogit
+mkdir -p Estructura_Asimetrica/{correo/{cartas_{1..100},carteros_{1..10}},clientes/cartas_{1..100}}
+tree
+ls
+cd UTNFRA_SO_1P2C_2024_Finamore/
+ls RTA_SCRIPT_Examen_20241005/
+git status
+ls
+cd RTA_SCRIPT_Examen_20241005/
+ls
+git status
+vim Punto_D.sh
+git add Punto_D.sh
+git commit -m "Agregar creacion de escritorio de carteros (Punto_D.sh)"
+git push origin main
+cd ..
+free -h
+grep "Mem:"
+free -h
+free -h | grep "Mem:"
+free -h | grep "Mem:" | awk '{print $2}'
+cat /proc/cpuinfo
+cat /proc/cpuinfo | grep -i proce
+cat /proc/cpuinfo | grep -i fpu
+cat /proc/cpuinfo | grep -i proce
+cat /proc/cpuinfo | grep -i | awk
+cat /proc/cpuinfo | grep -i | awk {print}
+cat /proc/cpuinfo | grep -i | awk '{print}'
+cat /proc/cpuinfo | grep -i proce | awk '{print}'
+cat /proc/cpuinfo | grep -i proce
+cat /proc/cpuinfo | grep -i proce | awk '{print}'
+cd reṕgot
+cd repogit
+cd ..
+cat /proc/meminfo
+cat /proc/meminfo | grep -i Mem
+cat /proc/meminfo | grep -i MemTotal
+cat /proc/meminfo | grep -i MemTotal | awp '{print}'
+cat /proc/meminfo | grep -i MemTotal | awk '{print}'
+cat /proc/meminfo | grep -i MemTotal | awk '{print$3}'
+cat /proc/meminfo | grep -i MemTotal | awk '{print$2}'
+cat dmidecode -t chassis
+dmidecode -t chassis
+sudo dmidecode -t chassis
+sudo dmidecode -t chassis | grep "Manufacturer"
+sudo dmidecode -t chassis | grep "Manufacturer" | awk '{print $2, $3}'
+sudo dmidecode -t chassis | grep "Chassis"
+cat /proc/meminfo | grep -i MemTotal | awk '{print$2}' > $HOME/repogit/Filtro_Basico.txt
+tree
+cd repogit
+ls
+vim Filtro_Basico.txt
+rm Filtro_Basico.txt
+ls
+cat /proc/meminfo | grep -i MemTotal > $HOME/repogit/Filtro_Basico.txt
+vim Filtro_Basico.txt
+sudo dmidecode -t chassis | grep "Manufacturer" | awk '{print $2, $3}'
+sudo dmidecode -t chassis | grep "Manufacturer"
+sudo dmidecode -t chassis | grep "Chassis"
+sudo dmidecode -t chassis | grep "Chassis" >> $HOME/repogit/Filtro_Basico.txt
+sudo dmidecode -t chassis | grep "Manufacturer" >> $HOME/repogit/Filtro_Basico.txt
+vim Filtro_Basico.txt
+cat Filtro_Basico.txt
+cd UTNFRA_SO_1P2C_2024_Finamore/
+cd RTA_SCRIPT_Examen_20241005/
+ls
+vim Punto_E.sh
+ls
+cat Punto_E.sh
+git add Punto_E.sh
+git commit -m "Agregado archivo para ver info de la memoria y el chassis (Punto_E.sh)"
+git push origin main
+cd ..
+ls
+tree
+cd vagrant
+cd repogit
+curl -s ifconfig.me
+echo "Mi IP Publica es: $(curl -s ifconfig.me)"
+echo "Mi IP Publica es: $(curl -s ifconfig.me)" > $HOME/repogit/Filtro_Avanzado.txt
+ls
+cat Filtro_Avanzado.txt 
+echo "Mi usuario es: $(whoami)"
+echo "Mi usuario es: $(whoami)" >> $HOME/repogit/Filtro_Avanzado.txt
+cat Filtro_Avanzado.txt 
+openssl dgst -sha256
+cd repogit
+whoami | openssl dgst -sha256
+whoami | openssl dgst -sha256 | awk '{print $2}¿
+whoami | openssl dgst -sha256 | awk '{print $2}'
+cd repogit
+whoami | openssl dgst -sha256 | awk '{print $2}'
+echo "El hash de mi Usuario es: $(echo -n "$(whoami)" | openssl dgst -sha256 | awk '{print $2}')"
+echo "El Hash de mi Usuario es: $(echo -n "$(whoami)" | openssl dgst -sha256 | awk '{print $2}')" >> Filtro_Avanzado.txt
+cat Filtro_Avanzado.txt
+git remote get-url origin
+echo "La URL de mi repositorio es: $(git remote get-url origin)"
+ls
+cd UTNFRA_SO_1P2C_2024_Finamore/
+echo "La URL de mi repositorio es: $(git remote get-url origin)"
+cd ..
+cd /repogit/UTNFRA_SO_1P2C_2024_Finamore
+cd repogit/UTNFRA_SO_1P2C_2024_Finamore
+echo "La URL de mi repositorio es: $(git remote get-url origin)"cd ..
+cd ..
+ls
+cat Filtro_Avanzado.txt 
+echo "La URL de mi repositorio es: $(git remote get-url origin)" >> $HOME/repogit/Filtro_Avanzado.txt
+cd repogit/UTNFRA_SO_1P2C_2024_Finamore
+echo "La URL de mi repositorio es: $(git remote get-url origin)" >> $HOME/repogit/Filtro_Avanzado.txt
+echo "La URL de mi repositorio es: $(git remote get-url origin)"
+cd repogit/UTNFRA_SO_1P2C_2024_Finamore
+cd /repogit/UTNFRA_SO_1P2C_2024_Finamore
+cd $HOME/repogit/UTNFRA_SO_1P2C_2024_Finamore
+echo "La URL de mi repositorio es: $(git remote get-url origin)" >> $HOME/repogit/Filtro_Avanzado.txt
+cd..
+cd ..
+cat Filtro_Avanzado.txt 
+vim Filtro_Avanzado.txt
+cd $HOME/repogit/UTNFRA_SO_1P2C_2024_Finamore
+ls
+cd RTA_SCRIPT_Examen_20241005/
+ls
+vim Punto_F.sh
+git add Punto_F.sh
+git status
+git commit -m "Añadido filtro de ip, usuario, hash y URL segun solicitado (Punto_F.sh)"
+git push origin main
+history -a
+cd ..
+cat $HOME/.bash_history
+cat $HOME/.bash_history > $HOME/repogit/historial.txt
+cd repogit
+ls
+cat historial.txt 
+git add historial.txt
+ls
+git add historial.txt
+ls -a
+cd repogit
+ls
+cd UTNFRA_SO_1P2C_2024_Finamore/
+ls
+cat $HOME/.bash_history > $HOME/repogit/UTNFRA_SO_1P2C_2024_Finamore/historial.txt
+ls
+git add historial.txt
+git commit -m "Cargando historial (historial.txt)"
+git status
+git push origin main
+git status
+git push
+git push --help
+git push main main
+git pull main main
+ls
+cat README.md 
+git pull origin main
+git config pull.ff only
+cat README.md 
+git clone https://github.com/bitromdeveloper/UTNFRA_SO_1P2C_2024_Finamore/blob/main/README.md
+git clone https://github.com/bitromdeveloper/UTNFRA_SO_1P2C_2024_Finamore
+git status
+cat README.md 
+git pull origin main
+git pull main origin
+vim README.md
+git add README.md
+git commit "Actualizacion para parcial con datos personales (README.md)"
+vim README.md
+git commit "Actualizacion para parcial con datos personales (README.md)"
+git commit -m "Actualizacion para parcial con datos personales (README.md)"
+git push origin main
+cd https://github.com/bitromdeveloper/UTNFRA_SO_1P2C_2024_Finamore
+sudo cd https://github.com/bitromdeveloper/UTNFRA_SO_1P2C_2024_Finamore
+sudo -s cd https://github.com/bitromdeveloper/UTNFRA_SO_1P2C_2024_Finamore
+git pull
+cd repogit
+cd UTNFRA_SO_1P2C_2024_Finamore/
+git pull
+git reset --hard HEAD~1
+git status
+git reset --hard HEAD~1
+git status
+git add Punto_F.sh
+ls
+cd RTA_SCRIPT_Examen_20241005/
+git add Punto_F.sh
+git commit -m "Añadido filtro de ip, usuario, hash y URL segun solicitado(Punto_F.sh)"
+git push origin main
+git pull origin master
+git pull origin main
+ls
+cat Punto_F.sh
+vim Punto_F.sh
+git status
+ls
+cd ..
+ls
