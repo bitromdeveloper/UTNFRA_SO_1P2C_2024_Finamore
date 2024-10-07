@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 sudo fdisk /dev/sdd
 echo -e "n\np\n1\n\n+1G\nw" | fdisk /dev/sdd
 echo -e "n\np\n2\n\n+1G\nw" | fdisk /dev/sdd
